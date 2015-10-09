@@ -1,0 +1,50 @@
+body, html {
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  text-align: center;
+  background-image:url(../img/nyc_fall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+header {
+  margin-bottom: 2cm;
+  margin-top: 2cm;
+}
+
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  margin: 15px 0;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  color: white;
+  font-size: 5em;
+  font-weight: bolder;
+  line-height: 0.8em;
+}
+
+footer {
+  font-size: 0.5em;
+  color: white;
+  padding: 10;
+}
+
+input {
+  border: 100;
+  padding: 12px;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+}
+
+input[type="submit"] input[type="reset"]{
+  background: white;
+  color: black;
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+}
