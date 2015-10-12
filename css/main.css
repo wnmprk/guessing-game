@@ -2,14 +2,16 @@ body, html {
   min-height: 100%;
 }
 
-body {
+body, h1, input, button {
   font-family: 'Raleway', sans-serif;
+}
+
+body {
   font-weight: normal;
   text-align: center;
   background-image:url(../img/nyc_fall.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 header {
@@ -19,7 +21,6 @@ header {
 
 
 h1 {
-  font-family: 'Raleway', sans-serif;
   margin: 15px 0;
   text-align: center;
   text-shadow: 2px 2px black;
@@ -37,14 +38,16 @@ footer {
 
 input {
   border: 100;
-  padding: 12px;
+  padding: 10px;
   font-size: 24px;
-  font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
 
-input[type="submit"] input[type="reset"]{
-  background: white;
-  color: black;
-  font-size: 50px;
-  font-family: 'Raleway', sans-serif;
+button {
+  border-radius: 0;
+  color: #000000;
+  font-size: 20px;
+  background: #ffffff;
+  padding: 10px;
+  border: solid #000000 1px;
 }
