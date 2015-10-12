@@ -33,11 +33,11 @@ h1 {
 footer {
   font-size: 0.5em;
   color: white;
-  padding: 10;
+  margin-top: 375px;
 }
 
 input {
-  border: 100;
+  border: solid gray 1px;
   padding: 10px;
   font-size: 24px;
   text-align: center;
@@ -49,5 +49,5 @@ button {
   font-size: 20px;
   background: #ffffff;
   padding: 10px;
-  border: solid #000000 1px;
+  border: solid gray 1px;
 }
