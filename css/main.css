@@ -45,9 +45,9 @@ input {
 
 button {
   border-radius: 0;
-  color: #000000;
+  color: white;
   font-size: 20px;
-  background: #ffffff;
+  background: black;
   padding: 10px;
-  border: solid gray 1px;
+  border: none;
 }
