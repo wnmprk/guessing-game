@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
     <title>jessica park | guessing game</title>
-    <script language="javascript" type="text/javascript" src="stuff.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+    <script type='text/javascript' src='stuff.js'></script>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
     <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
     <header>
       <h1>guessing game</h1>
     </header>
-    <input type="number" placeholder="1-100">
-    <button type="submit">guess?</button>
-    <button type="submit">play again!</button>
+    <input type="text" placeholder="1-100">
+    <p id = "hotOrCold"></p>
+    <div class="buttons">
+      <button type="submit" id="submitGuess">submit</button>
+      <button type="submit" id="hint">hint</button>
+      <button type="reset" id="resetGame">reset</button>
+    </div>
+    <p id = "remainder">5 guesses left</p>
     <footer>
       <p>&copy; 2015 Jessica Park.</p>
     </footer>

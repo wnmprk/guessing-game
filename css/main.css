@@ -1,53 +1,54 @@
-body, html {
-  min-height: 100%;
-}
-
-body, h1, input, button {
-  font-family: 'Raleway', sans-serif;
-}
-
 body {
   font-weight: normal;
   text-align: center;
-  background-image:url(../img/nyc_fall.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: gray;
+  font-family: 'Raleway', sans-serif;
 }
-
-header {
-  margin-bottom: 2cm;
-  margin-top: 2cm;
-}
-
 
 h1 {
-  margin: 15px 0;
+  margin: 1cm 0 1cm 0;
   text-align: center;
   text-shadow: 2px 2px black;
   color: white;
   font-size: 5em;
-  font-weight: bolder;
-  line-height: 0.8em;
+  font-weight: 900;
 }
 
 footer {
   font-size: 0.5em;
   color: white;
-  margin-top: 375px;
+  margin-top: 130px;
+  text-shadow: 1px 1px black;
 }
 
 input {
-  border: solid gray 1px;
-  padding: 10px;
-  font-size: 24px;
+  box-shadow: 2px 2px black;
+  border: none;
+  margin: 20px 0 10px 0;
+  padding: 20px;
+  font-size: 30px;
+  color: black;
+  background: white;
   text-align: center;
+  font-weight: 900;
 }
 
 button {
-  border-radius: 0;
-  color: white;
-  font-size: 20px;
-  background: black;
-  padding: 10px;
+  box-shadow: 2px 2px black;
+  border-radius: 0px;
   border: none;
+  padding: 10px;
+  color: black;
+  background: white;
+  font-size: 25px;
+  font-weight: 900;
+  margin: 15px 15px 15px 15px;
+}
+
+#remainder, #hotOrCold {
+  margin-top: 1cm;
+  font-weight: 900;
+  font-size: 30px;
+  text-shadow: 2px 2px black;
+  color: white;
 }
