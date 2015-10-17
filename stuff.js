@@ -86,12 +86,14 @@ $(document).ready(function() {
 						$('body').css("background-color","#ff6666");
 					}
 				}
+				//when user runs out of attempts and final guess is incorrect
 				else if (attempts < 1 && current !== correct) {
 					$('#hotOrCold').fadeIn().text('the answer is ' + correct + "!");
 					$('#remainder').fadeIn().text('game over');
 					$('body').css("background-color","black");
 				}
 			}
+			//when a number has been already submitted before
 			else {
 				$('#hotOrCold').fadeIn().text("you already guessed " + current);
 				$('#remainder').text(attempts + " guesses left");
