@@ -20,7 +20,7 @@ $(document).ready(function() {
 
 		//when guess is correct. doesnt work?
 		if (current === correct && attempts > 0) {
-			$('body').css('background-image','url(img/winner.jpg)');
+			$('body').css('background-image','url(winner.jpg)');
 			attempts = 0;
 			$('#hotOrCold').fadeIn().text("you guessed correctly!");
 			$('#remainder').fadeIn().text('yay!');
